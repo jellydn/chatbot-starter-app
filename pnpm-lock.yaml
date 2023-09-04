@@ -6,42 +6,42 @@ settings:
 
 dependencies:
   '@urban-bot/core':
-    specifier: ^1.0.2
+    specifier: 1.0.2
     version: 1.0.2(react@18.2.0)
   '@urban-bot/discord':
-    specifier: ^1.0.2
+    specifier: 1.0.2
     version: 1.0.2
   '@urban-bot/facebook':
-    specifier: ^1.0.2
+    specifier: 1.0.2
     version: 1.0.2(request@2.88.2)
   '@urban-bot/slack':
-    specifier: ^1.0.2
+    specifier: 1.0.2
     version: 1.0.2
   '@urban-bot/telegram':
-    specifier: ^1.0.2
+    specifier: 1.0.2
     version: 1.0.2
   dotenv:
-    specifier: ^16.3.1
+    specifier: 16.3.1
     version: 16.3.1
   envalid:
-    specifier: ^7.3.1
+    specifier: 7.3.1
     version: 7.3.1
   pino:
-    specifier: ^8.15.0
+    specifier: 8.15.0
     version: 8.15.0
   react:
-    specifier: ^18.2.0
+    specifier: 18.2.0
     version: 18.2.0
   react-dom:
-    specifier: ^18.2.0
+    specifier: 18.2.0
     version: 18.2.0(react@18.2.0)
 
 devDependencies:
   '@swc/core':
-    specifier: ^1.3.82
+    specifier: 1.3.82
     version: 1.3.82
   '@trivago/prettier-plugin-sort-imports':
-    specifier: ^4.2.0
+    specifier: 4.2.0
     version: 4.2.0(prettier@3.0.3)
   '@types/react':
     specifier: ^18.2.21
@@ -50,58 +50,58 @@ devDependencies:
     specifier: ^18.2.7
     version: 18.2.7
   '@typescript-eslint/eslint-plugin':
-    specifier: ^6.5.0
+    specifier: 6.5.0
     version: 6.5.0(@typescript-eslint/parser@6.5.0)(eslint@8.48.0)(typescript@5.2.2)
   '@typescript-eslint/parser':
-    specifier: ^6.5.0
+    specifier: 6.5.0
     version: 6.5.0(eslint@8.48.0)(typescript@5.2.2)
   '@vitejs/plugin-react-swc':
-    specifier: ^3.3.2
+    specifier: 3.3.2
     version: 3.3.2(vite@4.4.9)
   '@vitest/coverage-c8':
-    specifier: ^0.33.0
+    specifier: 0.33.0
     version: 0.33.0(vitest@0.34.3)
   eslint:
-    specifier: ^8.48.0
+    specifier: 8.48.0
     version: 8.48.0
   eslint-config-productsway:
-    specifier: ^1.3.0
+    specifier: 1.3.0
     version: 1.3.0(@typescript-eslint/eslint-plugin@6.5.0)(@typescript-eslint/parser@6.5.0)(eslint@8.48.0)(prettier@3.0.3)(typescript@5.2.2)
   eslint-plugin-react-hooks:
-    specifier: ^4.6.0
+    specifier: 4.6.0
     version: 4.6.0(eslint@8.48.0)
   eslint-plugin-react-refresh:
-    specifier: ^0.4.3
+    specifier: 0.4.3
     version: 0.4.3(eslint@8.48.0)
   husky:
-    specifier: ^8.0.3
+    specifier: 8.0.3
     version: 8.0.3
   nano-staged:
-    specifier: ^0.8.0
+    specifier: 0.8.0
     version: 0.8.0
   ngrok:
     specifier: 5.0.0-beta.2
     version: 5.0.0-beta.2
   prettier:
-    specifier: ^3.0.3
+    specifier: 3.0.3
     version: 3.0.3
   tsup:
-    specifier: ^7.2.0
+    specifier: 7.2.0
     version: 7.2.0(@swc/core@1.3.82)(typescript@5.2.2)
   tsx:
-    specifier: ^3.12.8
+    specifier: 3.12.8
     version: 3.12.8
   typescript:
-    specifier: ^5.2.2
+    specifier: 5.2.2
     version: 5.2.2
   unplugin-swc:
-    specifier: ^1.4.2
+    specifier: 1.4.2
     version: 1.4.2(@swc/core@1.3.82)
   vite:
-    specifier: ^4.4.9
+    specifier: 4.4.9
     version: 4.4.9(@types/node@20.5.9)
   vitest:
-    specifier: ^0.34.3
+    specifier: 0.34.3
     version: 0.34.3
 
 packages:
@@ -131,7 +131,7 @@ packages:
     resolution: {integrity: sha512-oLcVCTeIFadUoArDTwpluncplrYBmTCCZZgXCbgNGvOBBiSDDK3eWO4b/+eOTli5tKv1lg+a5/NAXg+nTcei1w==}
     engines: {node: '>=6.9.0'}
     dependencies:
-      '@babel/types': 7.17.0
+      '@babel/types': 7.22.11
       jsesc: 2.5.2
       source-map: 0.5.7
     dev: true
@@ -187,7 +187,7 @@ packages:
     engines: {node: '>=6.0.0'}
     hasBin: true
     dependencies:
-      '@babel/types': 7.17.0
+      '@babel/types': 7.22.11
     dev: true
 
   /@babel/runtime@7.22.11:
@@ -217,7 +217,7 @@ packages:
       '@babel/helper-hoist-variables': 7.22.5
       '@babel/helper-split-export-declaration': 7.22.6
       '@babel/parser': 7.22.14
-      '@babel/types': 7.17.0
+      '@babel/types': 7.22.11
       debug: 4.3.4
       globals: 11.12.0
     transitivePeerDependencies:
