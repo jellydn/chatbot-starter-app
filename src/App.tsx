@@ -48,7 +48,7 @@ function Counter() {
 export function App() {
     return (
         <>
-            <Text>Welcome to ITMan Bot! Type /echo or /logo.</Text>
+            <Text>Welcome to ITMan Bot! Type /echo or /counter.</Text>
             <Router>
                 <Route path="/echo">
                     <Echo />

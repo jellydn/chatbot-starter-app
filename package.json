@@ -5,12 +5,12 @@
     "type": "module",
     "scripts": {
         "build": "tsup",
-        "dev": "tsup src/index.ts --watch --onSuccess 'node dist/index.cjs'",
+        "dev": "tsup src/index.ts --watch --onSuccess 'node dist/index.js'",
         "format": "prettier --write .",
         "postinstall": "npx husky install",
         "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
         "preview": "vite preview",
-        "start": "node dist/index.cjs",
+        "start": "node dist/index.js",
         "start-tunnel": "ngrok http 8080",
         "test": "vitest run",
         "typecheck": "tsc --noEmit"
