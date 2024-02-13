@@ -21,8 +21,8 @@ dependencies:
     specifier: 1.0.3
     version: 1.0.3
   dotenv:
-    specifier: 16.4.3
-    version: 16.4.3
+    specifier: 16.4.4
+    version: 16.4.4
   envalid:
     specifier: 8.0.0
     version: 8.0.0
@@ -2409,8 +2409,8 @@ packages:
     engines: {node: '>=12'}
     dev: false
 
-  /dotenv@16.4.3:
-    resolution: {integrity: sha512-II98GFrje5psQTSve0E7bnwMFybNLqT8Vu8JIFWRjsE3khyNUm/loZupuy5DVzG2IXf/ysxvrixYOQnM6mjD3A==}
+  /dotenv@16.4.4:
+    resolution: {integrity: sha512-XvPXc8XAQThSjAbY6cQ/9PcBXmFoWuw1sQ3b8HqUCR6ziGXjkTi//kB9SWa2UwqlgdAIuRqAa/9hVljzPehbYg==}
     engines: {node: '>=12'}
     dev: false
 
@@ -3302,6 +3302,7 @@ packages:
   /forwarded@0.2.0:
     resolution: {integrity: sha512-buRG0fpBtRHSTCOASe6hD258tEubFoRLb4ZNA6NxMVHNw2gOcwHo9wyablzMzOA5z9xA9L1KNjk/Nt6MT9aYow==}
     engines: {node: '>= 0.6'}
+    requiresBuild: true
     dev: false
 
   /fresh@0.5.2:
@@ -3681,6 +3682,7 @@ packages:
   /ipaddr.js@1.9.1:
     resolution: {integrity: sha512-0KI/607xoxSToH7GjN1FfSbLoU0+btTicjsQSWQlh/hZykN8KpmMf7uYwPW3R+akZ6R/w18ZlXSHBYXiYUPO3g==}
     engines: {node: '>= 0.10'}
+    requiresBuild: true
     dev: false
 
   /is-array-buffer@3.0.4:
@@ -4276,6 +4278,7 @@ packages:
   /negotiator@0.6.3:
     resolution: {integrity: sha512-+EUsqGPLsM+j/zdChZjsnX51g4XrHFOIXwfnCVPGlQk/k5giakcKsuxCObBRu6DSm9opw/O6slWbJdghQM4bBg==}
     engines: {node: '>= 0.6'}
+    requiresBuild: true
     dev: false
 
   /ngrok@5.0.0-beta.2:
