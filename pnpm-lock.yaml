@@ -57,7 +57,7 @@ devDependencies:
     version: 7.3.1(eslint@8.57.0)(typescript@5.4.3)
   '@vitejs/plugin-react-swc':
     specifier: 3.6.0
-    version: 3.6.0(vite@5.2.2)
+    version: 3.6.0(vite@5.2.3)
   '@vitest/coverage-c8':
     specifier: 0.33.0
     version: 0.33.0(vitest@1.4.0)
@@ -98,8 +98,8 @@ devDependencies:
     specifier: 1.4.4
     version: 1.4.4(@swc/core@1.4.8)
   vite:
-    specifier: 5.2.2
-    version: 5.2.2
+    specifier: 5.2.3
+    version: 5.2.3
   vitest:
     specifier: 1.4.0
     version: 1.4.0
@@ -1694,13 +1694,13 @@ packages:
       - supports-color
     dev: false
 
-  /@vitejs/plugin-react-swc@3.6.0(vite@5.2.2):
+  /@vitejs/plugin-react-swc@3.6.0(vite@5.2.3):
     resolution: {integrity: sha512-XFRbsGgpGxGzEV5i5+vRiro1bwcIaZDIdBRP16qwm+jP68ue/S8FJTBEgOeojtVDYrbSua3XFp71kC8VJE6v+g==}
     peerDependencies:
       vite: ^4 || ^5
     dependencies:
       '@swc/core': 1.4.8
-      vite: 5.2.2
+      vite: 5.2.3
     transitivePeerDependencies:
       - '@swc/helpers'
     dev: true
@@ -3671,6 +3671,7 @@ packages:
   /forwarded@0.2.0:
     resolution: {integrity: sha512-buRG0fpBtRHSTCOASe6hD258tEubFoRLb4ZNA6NxMVHNw2gOcwHo9wyablzMzOA5z9xA9L1KNjk/Nt6MT9aYow==}
     engines: {node: '>= 0.6'}
+    requiresBuild: true
     dev: false
 
   /fresh@0.5.2:
@@ -4050,6 +4051,7 @@ packages:
   /ipaddr.js@1.9.1:
     resolution: {integrity: sha512-0KI/607xoxSToH7GjN1FfSbLoU0+btTicjsQSWQlh/hZykN8KpmMf7uYwPW3R+akZ6R/w18ZlXSHBYXiYUPO3g==}
     engines: {node: '>= 0.10'}
+    requiresBuild: true
     dev: false
 
   /is-array-buffer@3.0.4:
@@ -4660,6 +4662,7 @@ packages:
   /negotiator@0.6.3:
     resolution: {integrity: sha512-+EUsqGPLsM+j/zdChZjsnX51g4XrHFOIXwfnCVPGlQk/k5giakcKsuxCObBRu6DSm9opw/O6slWbJdghQM4bBg==}
     engines: {node: '>= 0.6'}
+    requiresBuild: true
     dev: false
 
   /ngrok@5.0.0-beta.2:
@@ -6316,7 +6319,7 @@ packages:
       debug: 4.3.4
       pathe: 1.1.2
       picocolors: 1.0.0
-      vite: 5.2.2
+      vite: 5.2.3
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -6328,8 +6331,8 @@ packages:
       - terser
     dev: true
 
-  /vite@5.2.2:
-    resolution: {integrity: sha512-FWZbz0oSdLq5snUI0b6sULbz58iXFXdvkZfZWR/F0ZJuKTSPO7v72QPXt6KqYeMFb0yytNp6kZosxJ96Nr/wDQ==}
+  /vite@5.2.3:
+    resolution: {integrity: sha512-+i1oagbvkVIhEy9TnEV+fgXsng13nZM90JQbrcPrf6DvW2mXARlz+DK7DLiDP+qeKoD1FCVx/1SpFL1CLq9Mhw==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
@@ -6405,7 +6408,7 @@ packages:
       strip-literal: 2.0.0
       tinybench: 2.6.0
       tinypool: 0.8.2
-      vite: 5.2.2
+      vite: 5.2.3
       vite-node: 1.4.0
       why-is-node-running: 2.2.2
     transitivePeerDependencies:
