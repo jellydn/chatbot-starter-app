@@ -27,8 +27,8 @@ importers:
         specifier: 16.6.1
         version: 16.6.1
       envalid:
-        specifier: 8.1.0
-        version: 8.1.0
+        specifier: 8.1.1
+        version: 8.1.1
       pino:
         specifier: 9.14.0
         version: 9.14.0
@@ -1651,8 +1651,8 @@ packages:
   end-of-stream@1.4.5:
     resolution: {integrity: sha512-ooEGc6HP26xXq/N+GCGOT0JKCLDGrq2bQUZrQ7gyrJiZANJ/8YDTxTpQBXGMn+WbIQXNVpyWymm7KYVICQnyOg==}
 
-  envalid@8.1.0:
-    resolution: {integrity: sha512-OT6+qVhKVyCidaGoXflb2iK1tC8pd0OV2Q+v9n33wNhUJ+lus+rJobUj4vJaQBPxPZ0vYrPGuxdrenyCAIJcow==}
+  envalid@8.1.1:
+    resolution: {integrity: sha512-vOUfHxAFFvkBjbVQbBfgnCO9d3GcNfMMTtVfgqSU2rQGMFEVqWy9GBuoSfHnwGu7EqR0/GeukQcL3KjFBaga9w==}
     engines: {node: '>=18'}
 
   es-abstract@1.24.0:
@@ -5281,7 +5281,7 @@ snapshots:
     dependencies:
       once: 1.4.0
 
-  envalid@8.1.0:
+  envalid@8.1.1:
     dependencies:
       tslib: 2.8.1
 
