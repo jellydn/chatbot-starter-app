@@ -46,7 +46,7 @@
         "prettier": "3.8.1",
         "tsup": "8.5.1",
         "tsx": "4.21.0",
-        "typescript": "5.9.3",
+        "typescript": "6.0.3",
         "unplugin-swc": "1.5.9",
         "vite": "5.4.21",
         "vitest": "2.1.9"
